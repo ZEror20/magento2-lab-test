@@ -1897,11 +1897,11 @@
         </arguments>
     </virtualType>
     <preference for="Magento\Framework\Validator\HTML\WYSIWYGValidatorInterface" type="DefaultWYSIWYGValidator" />
-    <type name="Magento\Framework\View\TemplateEngine\Php">
+    <type name="Test\Framework\View\TemplateEngine\Php">
         <arguments>
             <argument name="blockVariables" xsi:type="array">
-                <item name="secureRenderer" xsi:type="object">Magento\Framework\View\Helper\SecureHtmlRenderer\Proxy</item>
-                <item name="escaper" xsi:type="object">Magento\Framework\Escaper</item>
+            	<item name="testSecureRenderer" xsi:type="object">Test\Framework\View\Helper\SecureHtmlRenderer\Proxy</item>
+            	<item name="testEscaper" xsi:type="object">Test\Framework\Escaper</item>
             </argument>
         </arguments>
     </type>
