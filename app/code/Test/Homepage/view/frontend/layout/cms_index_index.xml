@@ -1,0 +1,9 @@
+<?xml version="1.0" ?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+	<body>
+		<referenceContainer name="content">
+			<block as="homepage" class="Test\Homepage\Block\Homepage" name="homepage" template="Test_Homepage::homepage.phtml" cacheable="false"/>
+			<block as="homepage-contactus" class="Tsg\Feedback\Block\Widget\Form" name="homepage-contactus" template="Test_Homepage::contactus.phtml" cacheable="false"/>
+		</referenceContainer>
+	</body>
+</page>
